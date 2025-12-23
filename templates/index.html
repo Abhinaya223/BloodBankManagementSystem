@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blood Bank Management</title>
+
+    <!-- CSS file -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<header>
+    <h1>Blood Bank Management System</h1>
+    <p>Find blood donors easily in emergency cases</p>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}"
+</header>
+
+<div class="container">
+    <h2>Select Blood Group</h2>
+
+    <div class="blood-grid">
+        <a href="/donors/A+" class="blood-card">A+</a>
+        <a href="/donors/A-" class="blood-card">A-</a>
+        <a href="/donors/B+" class="blood-card">B+</a>
+        <a href="/donors/B-" class="blood-card">B-</a>
+        <a href="/donors/O+" class="blood-card">O+</a>
+        <a href="/donors/O-" class="blood-card">O-</a>
+        <a href="/donors/AB+" class="blood-card">AB+</a>
+        <a href="/donors/AB-" class="blood-card">AB-</a>
+    </div>
+
+    <a href="/register" class="btn">Register as Donor</a>
+</div>
+
+<footer>
+    © 2025 Blood Bank Management System | CSE Project
+</footer>
+
+<!-- JS file -->
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Donor List</title>
+</head>
+<body>
+
+<h2>Donors with Blood Group {{ blood_group }}</h2>
+
+{% if donors %}
+    <ul>
+        {% for donor in donors %}
+            <li>
+                Name: {{ donor.name }} |
+                Phone: {{ donor.phone }} |
+                Location: {{ donor.location }}
+            </li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No donors found.</p>
+{% endif %}
+
+<br>
+<a href="/">Back to Blood Groups</a>
+
+</body>
+</html>

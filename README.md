@@ -34,37 +34,6 @@ Abhinaya
 CSE Student
 ---
 
-### 🔹 Step 4: Scroll DOWN (Very Important)
 
-At the **bottom of the page**, you’ll see:
-
-- **Commit message box**
-
-In that box, type:
-
-Updated README
----
-
-### 🔹 Step 5: Click **Commit changes**
-- Green button
-- Click it ✅
-
----
-
-## 🎉 DONE! (What This Means)
-
-✔ Your project now looks **professional**  
-✔ Ready for **LinkedIn posting**  
-✔ Ready for **resume & interviews**
-
----
-
-## 🔜 NEXT (Tell me what you want)
-I can now help you with:
-1️⃣ **Perfect LinkedIn post caption**  
-2️⃣ **How to add this GitHub link to LinkedIn profile**  
-3️⃣ **Resume project description (2 lines)**  
-
-Just tell me the number 😊
 
    
